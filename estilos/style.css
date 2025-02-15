@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+:root{
+    --fonte-padrao: "Convergence", serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(73, 73, 73);
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;  
+    justify-content: center;
+    height: 60px;
+    background-color: black;
+}
+
+.barra-top{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#gal{
+    font-size: 1.6em;
+    padding-left: 40px;
+    color: rgb(216, 216, 216);
+}
+
+#burguer{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: ease;
+}
+
+#burguer:hover{
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+menu a:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.container-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imgg{
+    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+}
+
+.timg{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 10px;
+}
