@@ -76,14 +76,23 @@ menu a:hover{
     color: white;
 }
 
+.destaque h1{
+    color: #ffffff;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #000000;
+    width: 220px;
+}
+
 .container-images{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 33px;
 }
 
 .imgg{
-    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+    box-shadow: 0px 0px 2px 5px rgb(202, 202, 202);
 }
 
 .timg{
@@ -92,4 +101,115 @@ menu a:hover{
     font-size: 1.3em;
     text-align: center;
     padding-top: 10px;
+    font-weight: 100;
+}
+
+.az{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container-veja{
+    display: flex;
+    justify-content: center;
+}
+
+#veja{
+    background-color: #000000;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 8px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-family: var(--fonte-padrao);
+    border-radius: 8px;
+}
+
+.container-curiosidades{
+    text-align: center;
+    justify-content: center;
+}
+
+.container-curiosidades div{
+    background-color: #000000;
+    text-align: center;
+    padding: 3px;
+    width: 340px;
+    margin: auto;
+}
+
+.container-curiosidades h1, p{
+    color: #ffffff;
+}
+
+.container-curiosidades p{
+    max-width: 320px;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.pedidos{
+    text-align: center;
+}
+
+.pedidos h1{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 3px;
+    width: 315px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+form > input[type=text] {
+    padding: 12px;
+    width: 80vw;
+    font-size: 1em;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+form > input[type=submit] {
+    width: 80px;
+    height: 40px;
+    border-radius: 0px;
+    border-style: none;
+    background-color: rgb(0, 0, 0);
+    margin-top: 12px;
+    color: white;
+    font-size: 1em;
+    font-family: var(--fonte-sans);
+    transition: .3s;
+    transition-timing-function: ease;
+}
+
+form > input[type=submit]:hover{
+    background-color: #969696;
+    color: #ffffff;
+}
+
+::placeholder{
+    color: rgb(158, 158, 158);
+}
+
+.contato{
+    text-align: center;
+    height: 130px;
+    color: #ffffff;
+}
+
+.contato h1{
+    color: white;
+    background-color: #000000;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contato i{
+    color: #ffffff;
 }

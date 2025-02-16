@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,35 +19,83 @@
     <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
     <menu id="itens">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">Projetos</a></li>
-            <li><a href="#contrato">Especialidades</a></li>
+            <li><a href="#home">Destaques</a></li>
+            <li><a href="#news">Curiosidades</a></li>
+            <li><a href="#contrato">Pedido De Artes</a></li>
             <li><a href="#call">Contato</a></li>
         </ul>
     </menu>
+
+    <section class="destaque">
+        <h1>Obras em Destaque</h1>
+    </section>
+
     <section class="container-images">
         <img src="imagens/monalisa.jpg" alt="" class="imgg">
     </section>
 
-    <p class="timg">Monalisa</p>
+    <a href="https://pt.wikipedia.org/wiki/Mona_Lisa" target="_blank" class="az">
+        <p class="timg">Monalisa</p>
+    </a>
 
     <section class="container-images">
         <img src="imagens/ogrito.png" alt="" class="imgg">
     </section>
 
-    <p class="timg">O Grito</p>
+    <a href="https://pt.wikipedia.org/wiki/O_Grito" target="_blank" class="az">
+        <p class="timg">O Grito</p>
+    </a>
 
     <section class="container-images">
-        <img src="imagens/abaporu.png" alt="">
+        <img src="imagens/abaporu.png" alt="" class="imgg">
     </section>
 
-    <p class="timg">Abaporu</p>
+    <a href="https://pt.wikipedia.org/wiki/Abaporu" target="_blank" class="az">
+        <p class="timg">Abaporu</p>
+    </a>
 
     <section class="container-images">
-        <img src="imagens/A Moça com Brinco de Pérola.png" alt="">
+        <img src="imagens/A Moça com Brinco de Pérola.png" alt="" class="imgg">
     </section>
 
-    <p class="timg">A Moça com Brinco de Pérola</p>
+    <a href="https://pt.wikipedia.org/wiki/Meisje_met_de_parel" target="_blank" class="az">
+        <p class="timg">A Moça com Brinco de Pérola</p>
+    </a>
+    
+    <section class="container-veja">
+        <a href="pagina001.html" class="az"><input id="veja" type="button" value="Veja Mais"></a>
+    </section>
+
+    <section class="container-curiosidades">
+        <div>
+            <h1>Curiosidades Dos Destaques</h1>
+        </div>
+        <p>Cada uma dessas obras apresenta figuras humanas com expressões enigmáticas ou que provocam questionamentos sobre o que realmente estão sentindo ou pensando. A Monalisa tem seu sorriso misterioso, O Grito mostra uma figura angustiada e perturbada, o Abaporu traz um ser de proporções estranhas com um rosto que convida a interpretações, e a Moça com Brinco de Pérola exibe um olhar que transmite curiosidade, mas sem revelar seu real estado emocional. Esse fator comum nas obras faz com que todas sejam profundamente analisadas e continuem a intrigar pessoas ao longo dos séculos, como um convite ao espectador para tentar entender o que há por trás desses rostos tão complexos e misteriosos.</p>
+    </section>
+
+    <section class="pedidos">
+        <h1>Exponha a Obra que deseja!</h1>
+        <form action="" method="post" autocomplete="on">
+            <label for="inome"></label>
+            <br>
+            <input type="text" name="nome" id="inome" autocomplete="name" required placeholder="Nome Completo">
+            <br>
+            <label for="itext"></label>
+            <br>
+            <input type="text" name="text" id="itext" required placeholder="Pedido">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section class="contato">
+        <h1>Contato</h1>
+        <i id="call" class="material-icons">call</i>
+        (XX) XXX-XXXX
+        <br>
+        <i id="call" class="material-icons">email</i>
+        xxxxxxxxxxxx@gmail.com
+    </section>
 
     <script>
 
